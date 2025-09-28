@@ -6,15 +6,14 @@
   "author": "Robert Donnelly <dev@robdonn.com>",
   "license": "MIT",
   "private": true,
-  "workspaces": {
-    "packages": [
-      "packages/*"
-    ],
-    "nohoist": [
-      "**/lodash"
-    ]
-  },
+  "workspaces": [
+    "packages/*"
+  ],  
   "scripts": {
-    "start": "mdb"
+    "start": "mdb",
+    "lerna": "lerna"
+  },
+  "devDependencies": {
+    "lerna": "^9.0.0"
   }
 }
