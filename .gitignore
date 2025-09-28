@@ -1,0 +1,4 @@
+# the next line tells git to ignore all the node_modules folders 
+node_modules
+# the next line tells git to not ignore the root node_modules folder
+!/node_modules
